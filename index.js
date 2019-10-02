@@ -12,7 +12,7 @@ class Cirle {
   }
 
   set diameter(diameter) {
-    this.radius = diameter/2
+    this.radius = diameter / 2
   }
 
   get circumference() {
