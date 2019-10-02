@@ -15,6 +15,10 @@ class Cirle {
     return (this.radius * 2) * pi
   }
 
+  set circumference() {
+    this.radius = circumference/(pi * 2)
+  }
+
   get area() {
     return pi * (this.radius * this.radius)
   }
