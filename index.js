@@ -8,6 +8,7 @@ class Cirle {
   pi = Math.PI
 
   get diameter() {
+    return this.radius * 2
 
   }
 
