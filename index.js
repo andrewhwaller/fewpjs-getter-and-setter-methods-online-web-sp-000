@@ -4,4 +4,6 @@ class Cirle {
   constructor(radius) {
     this.radius = radius;
   }
+
+  pi = Math.PI
 }
