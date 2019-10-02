@@ -12,7 +12,7 @@ class Cirle {
   }
 
   get circumference() {
-
+    return (this.radius * 2) * pi
   }
 
   get area() {
