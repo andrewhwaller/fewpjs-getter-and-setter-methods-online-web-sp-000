@@ -6,4 +6,16 @@ class Cirle {
   }
 
   pi = Math.PI
+
+  get diameter() {
+    
+  }
+  
+  get circumference() {
+    
+  }
+  
+  get area() {
+    
+  }
 }
