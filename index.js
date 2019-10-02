@@ -1,11 +1,8 @@
-// Add your Circle class here
-
+const pi = Math.PI
 class Cirle {
   constructor(radius) {
     this.radius = radius;
   }
-
-  const pi = Math.PI
 
   get diameter() {
     return this.radius * 2
