@@ -11,11 +11,15 @@ class Cirle {
     return this.radius * 2
   }
 
+  set diameter() {
+    this.diameter = 
+  }
+
   get circumference() {
     return (this.radius * 2) * pi
   }
 
-  set circumference() {
+  set circumference(circumference) {
     this.radius = circumference/(pi * 2)
   }
 
