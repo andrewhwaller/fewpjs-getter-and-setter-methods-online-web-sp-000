@@ -5,7 +5,7 @@ class Cirle {
     this.radius = radius;
   }
 
-  pi = Math.PI
+  const pi = Math.PI
 
   get diameter() {
     return this.radius * 2
