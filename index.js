@@ -9,7 +9,6 @@ class Cirle {
 
   get diameter() {
     return this.radius * 2
-
   }
 
   get circumference() {
