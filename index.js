@@ -18,4 +18,8 @@ class Cirle {
   get area() {
     return pi * (this.radius * this.radius)
   }
+
+  set area(area) {
+    this.radius = Math.sqrt(area/pi)
+  }
 }
