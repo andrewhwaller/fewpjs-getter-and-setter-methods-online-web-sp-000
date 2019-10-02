@@ -1,6 +1,6 @@
 const pi = Math.PI
 
-class Cirle {
+class Circle {
   constructor(radius) {
     this.radius = radius;
   }
